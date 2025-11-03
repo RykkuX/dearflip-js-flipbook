@@ -121,5 +121,33 @@ var option_button_image = {
 
 More documentation at [DearFlip Flipbook JS/jQuery Docs](https://js.dearflip.com/docs/)
 
+## Local Development & Testing
 
+To test this project locally:
+
+1. **Install dependencies:**
+   ```bash
+   npm install
+   ```
+
+2. **Start the development server:**
+   ```bash
+   npm start
+   ```
+   Or use:
+   ```bash
+   npm run serve  # Server without auto-opening browser
+   npm run dev    # Same as npm start
+   ```
+
+3. **Access the examples:**
+   - Main page: `http://localhost:8080`
+   - Basic example: `http://localhost:8080/examples/basic-example.html`
+
+The server will run on port 8080 by default. You can change the port by modifying the scripts in `package.json`.
+
+**Note:** The flipbook requires a web server to run properly (cannot be opened directly as a file) due to:
+- Relative path requirements for CSS/JS files
+- CORS policies for loading PDF files
+- jQuery dependency loading
 

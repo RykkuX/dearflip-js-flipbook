@@ -10,7 +10,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "http-server -p 8080 -o",
     "serve": "http-server -p 8080",
-    "dev": "http-server -p 8080 -o"
+    "dev": "http-server -p 8080 -o",
+    "build": "echo 'Static site - no build required'"
   },
   "devDependencies": {
     "http-server": "^14.1.1"

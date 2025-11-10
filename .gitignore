@@ -50,5 +50,3 @@ crashlytics-build.properties
 
 # Node modules
 node_modules/
-
-/vercel.json
